@@ -34,7 +34,7 @@ move_butt_frame.pack(side = BOTTOM)
 ##############################################################
 
 
-#Creating and placing the 'movement' buttons
+#Creating and placing the buttons for movement, interaction, and resetting.
 left_button = Button(move_butt_frame, text = "<", width = 5, height = 2, bg = "blue", fg = "white")
 left_button.grid(row = 0, column = 0) 
 
