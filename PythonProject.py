@@ -4,11 +4,14 @@ from tkinter import *
 #Functions/Methods
 #############################################################
 #def go_left():
-
+	
 #def go_right():
 
 
 #def go_forward():
+	#canvas.delete("all")
+	#if(canvas.image == image1):
+
 
 #def go_back():
 
@@ -25,6 +28,7 @@ from tkinter import *
 #############################################################
 root = Tk()
 root.geometry("450x550")
+root.title("The Hallway")
 root.configure(bg = "black")
 
 
@@ -33,7 +37,10 @@ move_butt_frame.pack(side = BOTTOM)
 
 ##############################################################
 
+canvas = Canvas(height = 450, width = 500)
+canvas.pack()
 
+##############################################################
 #Creating and placing the buttons for movement, interaction, and resetting.
 left_button = Button(move_butt_frame, text = "<", width = 5, height = 2, bg = "blue", fg = "white")
 left_button.grid(row = 0, column = 0) 
@@ -52,11 +59,6 @@ interact_button.grid(row = 1, column = 2)
 
 reset_button = Button(move_butt_frame, text = "RESET", width = 5, height = 2, bg = "red", fg = "white")
 reset_button.grid(row = 1, column = 0)
-
-
-
-
-
 
 
 root.mainloop()
