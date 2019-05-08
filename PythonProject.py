@@ -74,12 +74,12 @@ def change_bg_back():
 		canvas.create_image(0, 0, image = img4, anchor = NW)
 		place_holder = 2
 
-	if(place_holder == 6):
+	elif(place_holder == 6):
 		canvas.delete("all")
 		canvas.create_image(0, 0, image = img4, anchor = NW)
 		place_holder = 2
 
-	if(place_holder == 2):
+	elif(place_holder == 2):
 		canvas.delete("all")
 		canvas.create_image(0, 0, image = img1, anchor = NW)
 		place_holder = 1
