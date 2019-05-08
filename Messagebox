@@ -5,7 +5,12 @@ root = tkinter.Tk()
 
 tkinter.messagebox.showinfo("Instruction", "Press interact to start.")
 
-tkinter.messagebox.showinfo("Instruction", "You die, press reset to reset")
+tkinter.messagebox.showinfo("Instruction", "You died, press reset to reset.")
 
-tkinter.messagebox.showinfo("Instruction", "Text")
+tkinter.messagebox.showinfo("Instruction", "You have escaped from  the building.")
+
+tkinter.messagebox.showinfo("Instruction", "You read diary 1.")
+
+tkinter.messagebox.showinfo("Instruction", "You read diary 2.")
+
 root.mainloop()
